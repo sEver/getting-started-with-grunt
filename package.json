@@ -1,0 +1,17 @@
+{
+  "name": "gswg",
+  "version": "0.1.0",
+  "description": "Nothing much",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-jade": "^0.13.0",
+    "grunt-contrib-stylus": "^0.20.0"
+  }
+}
