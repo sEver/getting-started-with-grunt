@@ -1,4 +1,16 @@
+//This is how we import exterior CSS
+//@import "vendor/bootstrap/bootstrap.css"
+
+
 html, body
     margin 0
     padding 0
+
+.content
+    @import "app/content"
+
+@media (max-width: 768px)
+    .content
+        @import "app/m-content"
+
 
